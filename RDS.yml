@@ -26,8 +26,6 @@ Resources:
     Properties:
       AllocatedStorage: 20
       DBName: mmDB
-      DBSecurityGroups: [sg-08c2a7b188d336ef2]
-        #defult SG of the vpc
       MultiAZ: true
       PubliclyAccessible: false
       DBInstanceClass: db.t2.small
